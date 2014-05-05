@@ -1,0 +1,71 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf190
+{\fonttbl\f0\fnil\fcharset0 Cambria;\f1\froman\fcharset0 TimesNewRomanPSMT;\f2\fnil\fcharset0 Menlo-Regular;
+\f3\froman\fcharset0 Times-Roman;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue255;\red163\green21\blue21;\red43\green131\blue159;
+\red0\green128\blue0;\red0\green0\blue233;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid1\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid1}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}
+\margl1440\margr1440\vieww9000\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\ri720
+
+\f0\fs24 \cf0 Play and record audio \
+\
+resources:\
+\
+\pard\pardeftab720\li720\fi-360\ri720
+\ls1\ilvl0\cf0 1.	\cf2 \ul \ulc2 http://www.appcoda.com/ios-avfoundation-framework-tutorial\cf0 \ulnone  \
+2.	\cf2 \ul \ulc2 http://www.raywenderlich.com/36475/how-to-make-a-music-visualizer-in-ios\cf0 \ulnone  \
+3.   http://www.techotopia.com/index.php/Recording_Audio_on_an_iPhone_with_AVAudioRecorder
+\f1 \
+\pard\pardeftab720\ri720
+
+\f0 \cf0 steps:\
+\
+1. Create single view iphone app\
+2. Add Link Binary: AVFOUNDATION.FRAMEWORK\
+3. Add WebView\
+4. Add Stop and Play Button\
+5. Add Picker\
+6. Add Import to .h\
+\
+\pard\tx529\pardeftab529\pardirnatural
+
+\f2\fs22 \cf2 \CocoaLigature0 #import \cf3 <AVFoundation/AVFoundation.h>\
+\
+7. Add Delegates to .h (\cf0 <\cf4 UIPickerViewDelegate\cf0 , \cf4 UIPickerViewDataSource\cf0 ,\cf4 AVAudioPlayerDelegate\cf0 >)\
+
+\f0\fs24 \CocoaLigature1 \
+
+\f2\fs22 \cf2 \CocoaLigature0 @interface\cf0  EmisoraViewController : \cf4 UIViewController\cf0 \
+<\cf4 UIPickerViewDelegate\cf0 , \cf4 UIPickerViewDataSource\cf0 ,\cf4 AVAudioPlayerDelegate\cf0 >\
+\
+8. Add PLayer Controls to .h\
+\
+\pard\tx529\pardeftab529\pardirnatural
+\cf5 //Play Audio\cf0 \
+\pard\tx529\pardeftab529\pardirnatural
+\cf2 @property\cf0  (\cf2 strong\cf0 , \cf2 nonatomic\cf0 ) \cf4 AVAudioPlayer\cf0  *audioPlayer;\
+\cf2 @property\cf0  (\cf2 strong\cf0 , \cf2 nonatomic\cf0 ) \cf4 AVURLAsset\cf0  *avAsset;\
+\cf2 @property\cf0  (\cf2 strong\cf0 , \cf2 nonatomic\cf0 ) \cf4 AVPlayerItem\cf0  *playerItem;\
+\
+9. Create Outlets/Actions for buttons \
+10. Create Outlet and Delegates for picker\
+\
+11. Get radio stations\
+\
+\pard\pardeftab720
+
+\f3\fs24 \cf0 \CocoaLigature1 Here is the site where you can find more radio stations.\
+\
+\pard\pardeftab720
+{\field{\*\fldinst{HYPERLINK "http://www.radio-locator.com/cgi-bin/locate?select=city&band=Both&dx=0&city=rockford&state=il&locate=Locate"}}{\fldrslt \cf6 \ul \ulc6 http://www.radio-locator.com/cgi-bin/locate?select=city&band=Both&dx=0&city=rockford&state=il&locate=Locate}}\
+\
+Click on the ! symbol and copy the audio feed url.\
+\
+12. Add Code for ViewDidLoad, Buttons, and PickerView\
+\
+\pard\pardeftab720
+
+\f2\fs22 \cf0 \CocoaLigature0 \
+}

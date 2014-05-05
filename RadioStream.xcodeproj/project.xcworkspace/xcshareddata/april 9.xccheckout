@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>32D4E1EB-D49E-42A4-B27E-DBCD55F256DF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>april 9</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B1D291EC-E496-4739-865F-10013A0C7D5F</key>
+		<string>https://github.com/ioscourse/Audio---Streaming-Radio-Player.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>april 9.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B1D291EC-E496-4739-865F-10013A0C7D5F</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ioscourse/Audio---Streaming-Radio-Player.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B1D291EC-E496-4739-865F-10013A0C7D5F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B1D291EC-E496-4739-865F-10013A0C7D5F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Audio - Streaming Radio Player</string>
+		</dict>
+	</array>
+</dict>
+</plist>
