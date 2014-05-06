@@ -5,36 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>4E34B4B3-2A0A-42BF-BF06-A54DDBE7336C</string>
+	<string>EEA77A0E-A88F-49C0-AD6E-7627F53C67AB</string>
 	<key>IDESourceControlProjectName</key>
 	<string>RadioStream</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>5CB9690D-25ED-438E-B325-B62ED1FD0068</key>
-		<string>https://github.com/ioscourse/CIS280-Apps.git</string>
+		<key>4513111F-DAD9-4AA3-8DA8-ABA6D27B7BEF</key>
+		<string>https://github.com/ioscourse/Radio-Streaming-Player.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Audio---Streaming-Radio-Player/RadioStream.xcodeproj/project.xcworkspace</string>
+	<string>RadioStream.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>5CB9690D-25ED-438E-B325-B62ED1FD0068</key>
-		<string>../../..</string>
+		<key>4513111F-DAD9-4AA3-8DA8-ABA6D27B7BEF</key>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/ioscourse/CIS280-Apps.git</string>
+	<string>https://github.com/ioscourse/Radio-Streaming-Player.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>5CB9690D-25ED-438E-B325-B62ED1FD0068</string>
+	<string>4513111F-DAD9-4AA3-8DA8-ABA6D27B7BEF</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>5CB9690D-25ED-438E-B325-B62ED1FD0068</string>
+			<string>4513111F-DAD9-4AA3-8DA8-ABA6D27B7BEF</string>
 			<key>IDESourceControlWCCName</key>
-			<string>apps</string>
+			<string>Radio Streaming Player</string>
 		</dict>
 	</array>
 </dict>
